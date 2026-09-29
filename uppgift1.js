@@ -8,7 +8,7 @@ let lastname = "johansson"
 let age = 32
 let student = true;
 
-console.log(firstname);
+console.log(firstname)
 console.log(lastname);
 console.log(age);
 console.log(student);

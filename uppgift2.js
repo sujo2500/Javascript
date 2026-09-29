@@ -3,5 +3,8 @@
 /*Operatorer och beräkningar*/
 // Av Susan Johansson, 2026
 
-const firstname = "Susan";
-console.log(firstname);
+
+let äpple = 3
+let moms = 1.25
+
+console.log(äpple * 100 * moms);
