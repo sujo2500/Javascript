@@ -3,16 +3,16 @@
 /*Variabler och datatyper*/
 // Av Susan Johansson, 2026
 
-const firstname = "Susan";
-console.log(firstname);
-
-let forename = "Susan";
-let lastname = "Johansson";
+let firstname = "Susan"
+let lastname = "johansson"
 let age = 32
+let student = true;
 
-ifsStudent = true;
+console.log(firstname);
+console.log(lastname);
+console.log(age);
+console.log(student);
 
-console.log(forename, lastname, student);
 
 
 
