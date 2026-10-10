@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulärhantering</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+    <h1>Formulärhantering</h1>
+    <main>
+        <section>
+            <h2>Skapa Användare</h2>
+
+            <form id="user-form">
+                <label for="name">Namn</label>
+                <br>
+                <input type="text" id="name" name="name" required>
+                <br>
+                
+                <label for="email">E-postadress</label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br>
+
+                <label for="age">Ålder</label>
+                <br>
+                <input type="number" id="age" name="age" min="18" max="100">
+                <br>
+                <br>
+                <button>Skicka</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>

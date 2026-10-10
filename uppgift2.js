@@ -4,7 +4,9 @@
 // Av Susan Johansson, 2026
 
 
-let äpple = 3
+let kvantitet = 3
 let moms = 1.25
+let price = 100
+let totalePrice = ((kvantitet * price) * moms)
+console.log(totalePrice);
 
-console.log(äpple * 100 * moms);
