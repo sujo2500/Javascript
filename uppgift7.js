@@ -6,9 +6,9 @@
 let siffror = [1, 2, 3, 4, 5, 6, 7]
 
 function räknaAlla(siffror) {
-    let resultat = 1;
+    let resultat = 0;
     for (let i = 0; i < siffror.length; i++) {
-        resultat = resultat * siffror[i];
+        resultat = resultat + siffror[i];
     }
     return resultat;
 }
